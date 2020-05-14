@@ -1,16 +1,17 @@
 //
-//  GameScene.swift
+//  MainMenu.swift
 //  Shooter
 //
 //  Created by Liam Tulit on 14/05/2020.
 //  Copyright © 2020 Liam Tulit. All rights reserved.
 //
 
+import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
-    
+
+class MainMenu: SKScene {
     let title : SKLabelNode = SKLabelNode(text: "Hello")
     
     
