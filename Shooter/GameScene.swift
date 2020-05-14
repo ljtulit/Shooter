@@ -11,9 +11,14 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-  
-    override func didMove(to view: SKView) {
+    let title : SKLabelNode = SKLabelNode(text: "Hello")
     
+    
+    
+    override func didMove(to view: SKView) {
+        title.position = CGPoint(x: size.width * 0.5, y: size.height * 0.5)
+        
+        addChild(title)
     }
     
     override func update(_ currentTime: TimeInterval) {
